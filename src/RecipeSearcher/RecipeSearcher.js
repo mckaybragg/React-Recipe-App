@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import RecipeList from '../RecipeList/RecipeList';
 
 class RecipeSearcher extends Component {
 
@@ -72,7 +73,7 @@ class RecipeSearcher extends Component {
 
         return (
             <div>
-                
+                <RecipeList recipes = {this.state.recipes} />
             </div>
         );
     }
