@@ -1,0 +1,51 @@
+h1 {
+    color: cornflowerblue;
+    font-size: 20pt;
+    padding: 30px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 12pt;
+    color: maroon;
+}
+
+button {
+    font-size: 12px;
+    background-color: cornflowerblue;
+    border: 1px solid maroon;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: maroon;
+    border: 1px solid cornflowerblue;
+    color: whitesmoke;
+}
+
+#searchButton {
+    font-size: 10px;
+    background-color: cornflowerblue;
+    border: 1px solid maroon;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#searchButton:hover {
+    background-color: maroon;
+    border: 1px solid cornflowerblue;
+    color: whitesmoke;
+}
+
+#textBar {
+    padding: 5px;
+    border: 1px solid maroon;
+    border-radius: 2px;
+}
+
+#Navbar {
+    text-align: left;
+    color: maroon;
+    text-decoration: none;
+}

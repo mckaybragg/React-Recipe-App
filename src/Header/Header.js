@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Header.css'
 
 class Header extends Component {
 
@@ -38,8 +39,8 @@ class Header extends Component {
                 {this.generateLetterButtons()}
                 <p>Get Recipes by Keyword</p>
                 <form onSubmit={this.handleSubmit}>
-                    <input type='text' value={this.state.textFieldValue} onChange={this.handleChange} />
-                    <input type='submit' value='Submit' />
+                    <input id='textBar' type='text' value={this.state.textFieldValue} onChange={this.handleChange} />
+                    <input id='searchButton' type='submit' value='Submit' />
                 </form>
                 <p>Get Random Recipe</p>
                 <button onClick={() => this.props.randomRecipeHandler()}>Submit</button>
