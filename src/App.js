@@ -26,6 +26,7 @@ function App() {
         </ul>
       </nav>
 
+
       {/* The Switch component looks through the Route componenets inside of it 
       and renders the first one that matches the current URL */}
       <Switch>

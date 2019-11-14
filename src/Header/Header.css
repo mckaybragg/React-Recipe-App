@@ -22,6 +22,7 @@ button:hover {
     background-color: maroon;
     border: 1px solid cornflowerblue;
     color: whitesmoke;
+    transition: ease-in 0.25s;
 }
 
 #searchButton {
@@ -36,6 +37,7 @@ button:hover {
     background-color: maroon;
     border: 1px solid cornflowerblue;
     color: whitesmoke;
+    transition: ease-in 0.25s;
 }
 
 #textBar {
@@ -46,6 +48,5 @@ button:hover {
 
 #Navbar {
     text-align: left;
-    color: maroon;
-    text-decoration: none;
+    list-style: none;
 }
